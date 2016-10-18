@@ -1,0 +1,164 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Wifi真机同步配置",
+        "submenu": [
+          {
+            "label": "查看Wifi真机同步服务器地址",
+            "command": "apicloud:get_wifisync_info"
+          },
+          {
+            "label": "安装服务",
+            "command": "apicloud:install_wifysync_app"
+          },
+          {
+            "label": "启动服务",
+            "command": "apicloud:start_wifysync_app"
+          },
+          {
+            "label": "停止服务",
+            "command": "apicloud:stop_wifysync_app"
+          }
+        ]
+      },
+      {
+        "label":"Wifi真机同步",
+        "command": "apicloud:wifi_sync"
+      },
+      {
+        "label":"Wifi全量真机同步",
+        "command": "apicloud:wifi_syncall"
+      },
+      {
+        "label":"Wifi真机预览",
+        "command": "apicloud:wifi_preview"
+      },
+      {
+        "label":"新建APICloud项目",
+        "submenu": [
+          {
+            "label": "空白应用",
+            "command": "apicloud:new_default_app"
+          },
+          {
+            "label": "底部导航",
+            "command": "apicloud:new_bottom_app"
+          },
+          {
+            "label": "首页导航",
+            "command": "apicloud:new_home_app"
+          },
+          {
+            "label": "侧边导航",
+            "command": "apicloud:new_slide_app"
+          }
+        ]
+      },
+      {
+        "label":"新建APICloud文件",
+        "command": "apicloud:new_html"
+      },
+      {
+        "label":"Android真机同步",
+        "command": "apicloud:loader_android"
+      },
+      {
+        "label":"iOS真机同步",
+        "command": "apicloud:loader_ios"
+      },
+      {
+        "label":"压缩Widget包",
+        "command": "apicloud:compress_widget"
+      },
+      {
+        "label":"Android本地打包",
+        "command": "apicloud:build_apk"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu":[{
+        "label":"APICloud",
+        "submenu": [
+          {
+            "label": "Wifi真机同步配置",
+            "submenu": [
+              {
+                "label": "查看Wifi真机同步服务器地址",
+                "command": "apicloud:get_wifisync_info"
+              },
+              {
+                "label": "安装服务",
+                "command": "apicloud:install_wifysync_app"
+              },
+              {
+                "label": "启动服务",
+                "command": "apicloud:start_wifysync_app"
+              },
+              {
+                "label": "停止服务",
+                "command": "apicloud:stop_wifysync_app"
+              }
+            ]
+          },
+          {
+            "label":"Wifi真机同步",
+            "command": "apicloud:wifi_sync"
+          },
+          {
+            "label":"Wifi全量真机同步",
+            "command": "apicloud:wifi_syncall"
+          },
+          {
+            "label":"Wifi真机预览",
+            "command": "apicloud:wifi_preview"
+          },
+          {
+            "label":"新建APICloud项目",
+            "submenu": [
+              {
+                "label": "空白应用",
+                "command": "apicloud:new_default_app"
+              },
+              {
+                "label": "底部导航",
+                "command": "apicloud:new_bottom_app"
+              },
+              {
+                "label": "首页导航",
+                "command": "apicloud:new_home_app"
+              },
+              {
+                "label": "侧边导航",
+                "command": "apicloud:new_slide_app"
+              }
+            ]
+          },
+          {
+            "label":"新建APICloud文件",
+            "command": "apicloud:new_html"
+          },
+          {
+            "label":"Android真机同步",
+            "command": "apicloud:loader_android"
+          },
+          {
+            "label":"iOS真机同步",
+            "command": "apicloud:loader_ios"
+          },
+          {
+            "label":"压缩Widget包",
+            "command": "apicloud:compress_widget"
+          },
+          {
+            "label":"Android本地打包",
+            "command": "apicloud:build_apk"
+          }
+        ]
+      }]
+    }
+  ]
+}

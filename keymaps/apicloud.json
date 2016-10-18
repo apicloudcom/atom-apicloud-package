@@ -1,0 +1,8 @@
+{
+  "atom-workspace": {
+    "ctrl-o": "apicloud:wifi_preview",
+    "ctrl-i": "apicloud:wifi_sync",
+    "ctrl-r": "apicloud:loader_android",
+    "ctrl-alt-r": "apicloud:loader_ios"
+  }
+}

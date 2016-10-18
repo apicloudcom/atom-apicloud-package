@@ -1,0 +1,16 @@
+{
+  "name": "apicloud",
+  "main": "./lib/apicloud",
+  "version": "0.0.1",
+  "description": "适用于APICloud开发平台的代码提示,无线真机同步,应用创建.真机同步和应用打包等功能",
+  "keywords": [
+  ],
+  "repository": "https://github.com/apicloud_com/atom.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+
+  }
+}
