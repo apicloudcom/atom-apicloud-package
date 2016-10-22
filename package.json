@@ -1,7 +1,7 @@
 {
   "name": "apicloud",
   "main": "./lib/apicloud",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "语法提示,请搜索: apicloud-autocomplete",
   "keywords": [],
   "repository": "https://github.com/apicloudcom/atom-apicloud-package",
