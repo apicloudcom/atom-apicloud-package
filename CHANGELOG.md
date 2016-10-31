@@ -1,3 +1,5 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 0.0.1 - APICloud WiFi真机同步功能登录Atom
+
+* 支持新建模板应用,模板页面
+* 支持WiFi真机同步
+* 更优雅地日志输出体验

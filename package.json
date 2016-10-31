@@ -1,13 +1,17 @@
 {
   "name": "apicloud",
   "main": "./lib/apicloud",
-  "version": "0.0.1",
-  "description": "语法提示,请搜索: apicloud-autocomplete",
-  "keywords": [],
-  "repository": "https://github.com/apicloudcom/atom-apicloud-package",
+  "version": "0.0.0",
+  "description": "适用于APICloud开发平台的开发工具,包含创建应用模板,WiFi真机同步,日志输出等功能",
+  "keywords": ["APICloud","真机调试","WiFi同步","应用模板","日志输出"],
+  "repository": "https://github.com/apicloudcom/atom-apicloud-package.git",
   "license": "GPL-3.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "apicloud-tools-core": "0.0.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
 }

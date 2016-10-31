@@ -1,8 +1,11 @@
 {
   "atom-workspace": {
-    "ctrl-o": "apicloud:wifi_preview",
-    "ctrl-i": "apicloud:wifi_sync",
-    "ctrl-r": "apicloud:loader_android",
-    "ctrl-alt-r": "apicloud:loader_ios"
+    "ctrl-o": "apicloud:previewWifi",
+    "ctrl-i": "apicloud:syncWifi"
+  },
+  ".apicloud-view-dialog":
+  {
+    "enter": "core:confirm",
+    "escape": "core:cancel"
   }
 }

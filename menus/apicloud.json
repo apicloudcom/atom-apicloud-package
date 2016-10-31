@@ -1,164 +1,295 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Wifi真机同步配置",
-        "submenu": [
+  "context-menu":{
+    ".tree-view .file,.directory":
+      [
+        {
+          "label": "新建 APICloud 项目模板",
+          "submenu": [
+            {
+              "label":"空白应用",
+              "command":  "apicloud:initApp,template=default"
+            },
+            {
+              "label":"底部导航",
+              "command":  "apicloud:initApp,template=bottom"
+            },
+            {
+              "label":"首页导航",
+              "command":  "apicloud:initApp,template=home"
+            },
+            {
+              "label":"侧边导航",
+              "command":  "apicloud:initApp,template=slide"
+            }]
+        },
+        {
+          "label": "新建 APICloud 页面框架",
+          "submenu": [
+            {
+              "label":"page001",
+              "command":  "apicloud:addFileTemplate,template=page001"
+            },
+            {
+              "label":"page002",
+              "command":  "apicloud:addFileTemplate,template=page002"
+            },
+            {
+              "label":"page003",
+              "command":  "apicloud:addFileTemplate,template=page003"
+            },
+            {
+              "label":"page004",
+              "command":  "apicloud:addFileTemplate,template=page004"
+            },
+            {
+              "label":"page005",
+              "command":  "apicloud:addFileTemplate,template=page005"
+            },
+            {
+              "label":"page006",
+              "command":  "apicloud:addFileTemplate,template=page006"
+            },
+            {
+              "label":"page007",
+              "command":  "apicloud:addFileTemplate,template=page007"
+            },
+            {
+              "label":"page008",
+              "command":  "apicloud:addFileTemplate,template=page008"
+            },
+            {
+              "label":"page009",
+              "command":  "apicloud:addFileTemplate,template=page009"
+            },
+            {
+              "label":"page010",
+              "command":  "apicloud:addFileTemplate,template=page010"
+            },
+            {
+              "label":"page011",
+              "command":  "apicloud:addFileTemplate,template=page011"
+            },
+            {
+              "label":"page012",
+              "command":  "apicloud:addFileTemplate,template=page012"
+            },
+            {
+              "label":"page013",
+              "command":  "apicloud:addFileTemplate,template=page013"
+            },
+            {
+              "label":"page014",
+              "command":  "apicloud:addFileTemplate,template=page014"
+            },
+            {
+              "label":"page015",
+              "command":  "apicloud:addFileTemplate,template=page015"
+            },
+            {
+              "label":"page016",
+              "command":  "apicloud:addFileTemplate,template=page016"
+            },
+            {
+              "label":"page017",
+              "command":  "apicloud:addFileTemplate,template=page017"
+            },
+            {
+              "label":"page018",
+              "command":  "apicloud:addFileTemplate,template=page018"
+            },
+            {
+              "label":"page019",
+              "command":  "apicloud:addFileTemplate,template=page019"
+            },
+            {
+              "label":"page020",
+              "command":  "apicloud:addFileTemplate,template=page020"
+            },
+            {
+              "label":"page021",
+              "command":  "apicloud:addFileTemplate,template=page021"
+            },
+            {
+              "label":"page022",
+              "command":  "apicloud:addFileTemplate,template=page022"
+            },
+            {
+              "label":"page023",
+              "command":  "apicloud:addFileTemplate,template=page023"
+            },
+            {
+              "label":"page024",
+              "command":  "apicloud:addFileTemplate,template=page024"
+            },
+            {
+              "label":"page025",
+              "command":  "apicloud:addFileTemplate,template=page025"
+            },
+            {
+              "label":"page026",
+              "command":  "apicloud:addFileTemplate,template=page026"
+            }
+          ] }
+          ,
           {
-            "label": "查看Wifi真机同步服务器地址",
-            "command": "apicloud:get_wifisync_info"
-          },
-          {
-            "label": "安装服务",
-            "command": "apicloud:install_wifysync_app"
-          },
-          {
-            "label": "启动服务",
-            "command": "apicloud:start_wifysync_app"
-          },
-          {
-            "label": "停止服务",
-            "command": "apicloud:stop_wifysync_app"
+            "label":"WiFi APICloud 真机同步",
+            "submenu":[
+              { "label": "页面预览", "command": "apicloud:previewWifi"},
+            	{ "label": "增量同步", "command": "apicloud:syncWifi"},
+            	{ "label": "全量同步", "command": "apicloud:syncAllWifi"},
+            	{ "label": "调试日志", "command": "apicloud:wifiLog"},
+              { "label": "运行状态", "command": "apicloud:wifiInfo"}
+            ]
           }
-        ]
-      },
-      {
-        "label":"Wifi真机同步",
-        "command": "apicloud:wifi_sync"
-      },
-      {
-        "label":"Wifi全量真机同步",
-        "command": "apicloud:wifi_syncall"
-      },
-      {
-        "label":"Wifi真机预览",
-        "command": "apicloud:wifi_preview"
-      },
-      {
-        "label":"新建APICloud项目",
-        "submenu": [
-          {
-            "label": "空白应用",
-            "command": "apicloud:new_default_app"
-          },
-          {
-            "label": "底部导航",
-            "command": "apicloud:new_bottom_app"
-          },
-          {
-            "label": "首页导航",
-            "command": "apicloud:new_home_app"
-          },
-          {
-            "label": "侧边导航",
-            "command": "apicloud:new_slide_app"
-          }
-        ]
-      },
-      {
-        "label":"新建APICloud文件",
-        "command": "apicloud:new_html"
-      },
-      {
-        "label":"Android真机同步",
-        "command": "apicloud:loader_android"
-      },
-      {
-        "label":"iOS真机同步",
-        "command": "apicloud:loader_ios"
-      },
-      {
-        "label":"压缩Widget包",
-        "command": "apicloud:compress_widget"
-      },
-      {
-        "label":"Android本地打包",
-        "command": "apicloud:build_apk"
-      }
-    ]
+      ]
   },
   "menu": [
-    {
-      "label": "Packages",
-      "submenu":[{
-        "label":"APICloud",
-        "submenu": [
-          {
-            "label": "Wifi真机同步配置",
-            "submenu": [
-              {
-                "label": "查看Wifi真机同步服务器地址",
-                "command": "apicloud:get_wifisync_info"
-              },
-              {
-                "label": "安装服务",
-                "command": "apicloud:install_wifysync_app"
-              },
-              {
-                "label": "启动服务",
-                "command": "apicloud:start_wifysync_app"
-              },
-              {
-                "label": "停止服务",
-                "command": "apicloud:stop_wifysync_app"
-              }
-            ]
-          },
-          {
-            "label":"Wifi真机同步",
-            "command": "apicloud:wifi_sync"
-          },
-          {
-            "label":"Wifi全量真机同步",
-            "command": "apicloud:wifi_syncall"
-          },
-          {
-            "label":"Wifi真机预览",
-            "command": "apicloud:wifi_preview"
-          },
-          {
-            "label":"新建APICloud项目",
-            "submenu": [
-              {
-                "label": "空白应用",
-                "command": "apicloud:new_default_app"
-              },
-              {
-                "label": "底部导航",
-                "command": "apicloud:new_bottom_app"
-              },
-              {
-                "label": "首页导航",
-                "command": "apicloud:new_home_app"
-              },
-              {
-                "label": "侧边导航",
-                "command": "apicloud:new_slide_app"
-              }
-            ]
-          },
-          {
-            "label":"新建APICloud文件",
-            "command": "apicloud:new_html"
-          },
-          {
-            "label":"Android真机同步",
-            "command": "apicloud:loader_android"
-          },
-          {
-            "label":"iOS真机同步",
-            "command": "apicloud:loader_ios"
-          },
-          {
-            "label":"压缩Widget包",
-            "command": "apicloud:compress_widget"
-          },
-          {
-            "label":"Android本地打包",
-            "command": "apicloud:build_apk"
-          }
-        ]
-      }]
-    }
-  ]
+   {
+     "label": "Packages",
+     "submenu":[{
+       "label":"APICloud",
+       "submenu": [
+         {
+           "label": "新建项目模板",
+           "submenu": [
+             {
+               "label":"空白应用",
+               "command":  "apicloud:initApp,template=default"
+             },
+             {
+               "label":"底部导航",
+               "command":  "apicloud:initApp,template=bottom"
+             },
+             {
+               "label":"首页导航",
+               "command":  "apicloud:initApp,template=home"
+             },
+             {
+               "label":"侧边导航",
+               "command":  "apicloud:initApp,template=slide"
+             }]
+         },
+         {
+           "label": "新建页面框架",
+           "submenu": [
+             {
+               "label":"page001",
+               "command":  "apicloud:addFileTemplate,template=page001"
+             },
+             {
+               "label":"page002",
+               "command":  "apicloud:addFileTemplate,template=page002"
+             },
+             {
+               "label":"page003",
+               "command":  "apicloud:addFileTemplate,template=page003"
+             },
+             {
+               "label":"page004",
+               "command":  "apicloud:addFileTemplate,template=page004"
+             },
+             {
+               "label":"page005",
+               "command":  "apicloud:addFileTemplate,template=page005"
+             },
+             {
+               "label":"page006",
+               "command":  "apicloud:addFileTemplate,template=page006"
+             },
+             {
+               "label":"page007",
+               "command":  "apicloud:addFileTemplate,template=page007"
+             },
+             {
+               "label":"page008",
+               "command":  "apicloud:addFileTemplate,template=page008"
+             },
+             {
+               "label":"page009",
+               "command":  "apicloud:addFileTemplate,template=page009"
+             },
+             {
+               "label":"page010",
+               "command":  "apicloud:addFileTemplate,template=page010"
+             },
+             {
+               "label":"page011",
+               "command":  "apicloud:addFileTemplate,template=page011"
+             },
+             {
+               "label":"page012",
+               "command":  "apicloud:addFileTemplate,template=page012"
+             },
+             {
+               "label":"page013",
+               "command":  "apicloud:addFileTemplate,template=page013"
+             },
+             {
+               "label":"page014",
+               "command":  "apicloud:addFileTemplate,template=page014"
+             },
+             {
+               "label":"page015",
+               "command":  "apicloud:addFileTemplate,template=page015"
+             },
+             {
+               "label":"page016",
+               "command":  "apicloud:addFileTemplate,template=page016"
+             },
+             {
+               "label":"page017",
+               "command":  "apicloud:addFileTemplate,template=page017"
+             },
+             {
+               "label":"page018",
+               "command":  "apicloud:addFileTemplate,template=page018"
+             },
+             {
+               "label":"page019",
+               "command":  "apicloud:addFileTemplate,template=page019"
+             },
+             {
+               "label":"page020",
+               "command":  "apicloud:addFileTemplate,template=page020"
+             },
+             {
+               "label":"page021",
+               "command":  "apicloud:addFileTemplate,template=page021"
+             },
+             {
+               "label":"page022",
+               "command":  "apicloud:addFileTemplate,template=page022"
+             },
+             {
+               "label":"page023",
+               "command":  "apicloud:addFileTemplate,template=page023"
+             },
+             {
+               "label":"page024",
+               "command":  "apicloud:addFileTemplate,template=page024"
+             },
+             {
+               "label":"page025",
+               "command":  "apicloud:addFileTemplate,template=page025"
+             },
+             {
+               "label":"page026",
+               "command":  "apicloud:addFileTemplate,template=page026"
+             }
+           ] }
+           ,
+           {
+             "label":"WiFi 真机同步",
+             "submenu":[
+               { "label": "页面预览", "command": "apicloud:previewWifi"},
+             	{ "label": "增量同步", "command": "apicloud:syncWifi"},
+             	{ "label": "全量同步", "command": "apicloud:syncAllWifi"},
+             	{ "label": "调试日志", "command": "apicloud:wifiLog"},
+               { "label": "运行状态", "command": "apicloud:wifiInfo"}
+             ]
+           }
+       ]
+     }]
+   }
+ ]
 }
