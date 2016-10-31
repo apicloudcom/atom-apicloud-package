@@ -1,9 +1,15 @@
 {
   "name": "apicloud",
   "main": "./lib/apicloud",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "适用于APICloud开发平台的开发工具,包含创建应用模板,WiFi真机同步,日志输出等功能",
-  "keywords": ["APICloud","真机调试","WiFi同步","应用模板","日志输出"],
+  "keywords": [
+    "APICloud",
+    "真机调试",
+    "WiFi同步",
+    "应用模板",
+    "日志输出"
+  ],
   "repository": "https://github.com/apicloudcom/atom-apicloud-package.git",
   "license": "GPL-3.0",
   "engines": {
