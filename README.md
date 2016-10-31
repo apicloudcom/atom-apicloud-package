@@ -6,9 +6,9 @@
 
 ## 安装
 
-方式一: Atom编辑器中,搜索并安装 package: [apicloud](https://atom.io/packages/apicloud)
-方式二: 如果下载缓慢,可尝试下载完整插件包,并解压到 .atom/packages 插件根目录,重启Atom: 
-[atom-apicloud-package-0.0.1.zip](https://github.com/apicloudcom/atom-apicloud-package/files/561421/atom-apicloud-package-0.0.1.zip)
+* 方式一: Atom编辑器中,搜索并安装 package: [apicloud](https://atom.io/packages/apicloud)
+* 方式二: 如果下载缓慢,可尝试下载完整插件包,并解压到 .atom/packages 插件根目录,重启Atom: 
+[atom-apicloud-package-0.0.1.zip](http://7y2xqk.com1.z0.glb.clouddn.com/apicloud/d8f12c32ed4fef31b7c4029b531e85a1.zip)
 
 ## 特性
 
