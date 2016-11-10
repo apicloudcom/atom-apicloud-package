@@ -16,6 +16,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "apicloud-tools-core": "0.0.1"
+    "apicloud-tools-core": "0.0.4"
   }
 }
