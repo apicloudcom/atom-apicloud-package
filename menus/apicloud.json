@@ -3,7 +3,7 @@
     ".tree-view .file,.directory":
       [
         {
-          "label": "新建 APICloud 项目模板",
+          "label": "新建项目模板",
           "submenu": [
             {
               "label":"空白应用",
@@ -23,7 +23,7 @@
             }]
         },
         {
-          "label": "新建 APICloud 页面框架",
+          "label": "新建页面框架",
           "submenu": [
             {
               "label":"page001",
@@ -131,8 +131,8 @@
             }
           ] }
           ,
-          { "label": "wifi 页面预览", "command": "apicloud:previewWifi"},
-          { "label": "wifi 增量同步", "command": "apicloud:syncWifi"},
+          { "label": "wifi页面预览(ctrl-o)", "command": "apicloud:previewWifi"},
+          { "label": "wifi增量同步(ctrl-i)", "command": "apicloud:syncWifi"},
           { "label": "wifi 全量同步", "command": "apicloud:syncAllWifi"},
           { "label": "查看 App日志", "command": "apicloud:wifiLog"},
           { "label": "查看ip与端口", "command": "apicloud:wifiInfo"}
@@ -273,8 +273,8 @@
              }
            ] }
            ,
-           { "label": "wifi 页面预览", "command": "apicloud:previewWifi"},
-           { "label": "wifi 增量同步", "command": "apicloud:syncWifi"},
+           { "label": "wifi页面预览(ctrl-o)", "command": "apicloud:previewWifi"},
+           { "label": "wifi增量同步(ctrl-i)", "command": "apicloud:syncWifi"},
            { "label": "wifi 全量同步", "command": "apicloud:syncAllWifi"},
            { "label": "查看 App 日志", "command": "apicloud:wifiLog"},
            { "label": "查看ip与端口", "command": "apicloud:wifiInfo"}

@@ -8,6 +8,11 @@
 
 Atom编辑器中,搜索并安装 package: [apicloud](https://atom.io/packages/apicloud)
 
+## 快捷键
+
+* wifi 页面预览 ctrl + o
+* wifi 增量同步 ctrl + i
+
 ## 特性
 
 * 支持 Mac/Windows/Linux等主流操作系统;
