@@ -131,16 +131,11 @@
             }
           ] }
           ,
-          {
-            "label":"WiFi APICloud 真机同步",
-            "submenu":[
-              { "label": "页面预览", "command": "apicloud:previewWifi"},
-            	{ "label": "增量同步", "command": "apicloud:syncWifi"},
-            	{ "label": "全量同步", "command": "apicloud:syncAllWifi"},
-            	{ "label": "调试日志", "command": "apicloud:wifiLog"},
-              { "label": "运行状态", "command": "apicloud:wifiInfo"}
-            ]
-          }
+          { "label": "wifi 页面预览", "command": "apicloud:previewWifi"},
+          { "label": "wifi 增量同步", "command": "apicloud:syncWifi"},
+          { "label": "wifi 全量同步", "command": "apicloud:syncAllWifi"},
+          { "label": "查看 App日志", "command": "apicloud:wifiLog"},
+          { "label": "查看ip与端口", "command": "apicloud:wifiInfo"}
       ]
   },
   "menu": [
@@ -278,16 +273,11 @@
              }
            ] }
            ,
-           {
-             "label":"WiFi 真机同步",
-             "submenu":[
-               { "label": "页面预览", "command": "apicloud:previewWifi"},
-             	{ "label": "增量同步", "command": "apicloud:syncWifi"},
-             	{ "label": "全量同步", "command": "apicloud:syncAllWifi"},
-             	{ "label": "调试日志", "command": "apicloud:wifiLog"},
-               { "label": "运行状态", "command": "apicloud:wifiInfo"}
-             ]
-           }
+           { "label": "wifi 页面预览", "command": "apicloud:previewWifi"},
+           { "label": "wifi 增量同步", "command": "apicloud:syncWifi"},
+           { "label": "wifi 全量同步", "command": "apicloud:syncAllWifi"},
+           { "label": "查看 App 日志", "command": "apicloud:wifiLog"},
+           { "label": "查看ip与端口", "command": "apicloud:wifiInfo"}
        ]
      }]
    }
