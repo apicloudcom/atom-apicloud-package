@@ -1,5 +1,9 @@
 # APICloud For Atom -- 适用于Atom编辑器的APICloud开发工具
 
+## 开源地址:
+
+[https://github.com/apicloudcom/atom-apicloud-package](https://github.com/apicloudcom/atom-apicloud-package)
+
 ## 简介
 
 [APICloud](http://www.apicloud.com/) 为 Atom 编辑器推出的开发工具包.包含新建应用模板,页面模板,WiFi 真机同步,流式日志输出等核心功能.
