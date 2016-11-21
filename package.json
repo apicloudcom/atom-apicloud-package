@@ -1,7 +1,7 @@
 {
   "name": "apicloud",
   "main": "./lib/apicloud",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "适用于APICloud开发平台的开发工具,包含创建应用模板,WiFi真机同步,日志输出等功能",
   "keywords": [
     "APICloud",
@@ -16,6 +16,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "apicloud-tools-core": "0.0.4"
+    "apicloud-tools-core": "^0.1.0"
   }
 }
